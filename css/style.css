@@ -22,6 +22,11 @@ body .container {
   background-color: rgba(1, 50, 32, 0.8);
   color: #fff;
 }
+@media screen and (max-width: 767px) {
+  body .container {
+    max-width: 100vw;
+  }
+}
 body .container .row-all-seasons {
   border-bottom: 1px solid grey;
 }
@@ -46,7 +51,7 @@ body .container .row-all-seasons .card a {
   color: #fff;
 }
 body .container .row-all-seasons .card a img {
-  height: 15vw;
+  height: 15em;
 }
 body .container .row-all-seasons .card a .card-body {
   padding: 5px;
@@ -116,10 +121,15 @@ body .container .my-slider div .slider-item {
 body .container .my-slider div .slider-item:hover {
   border: none;
 }
-body .container .col-4 {
+body .container .col-sm-4 {
   border-left: 1px solid grey;
 }
-body .container .col-4 button {
+@media screen and (max-width: 767px) {
+  body .container .col-sm-4 {
+    border-left: none;
+  }
+}
+body .container .col-sm-4 button {
   border: none;
   border-radius: 5px;
   padding: 15px;
@@ -130,41 +140,64 @@ body .container .col-4 button {
   background-color: #e19f2a;
   width: 90%;
 }
-body .container .col-4 .table-a-s {
+body .container .col-sm-4 .table-a-s {
   width: 90%;
   margin: 0 5%;
 }
-body .container .col-4 .table-a-s .table-all-seasons {
+body .container .col-sm-4 .table-a-s .table-all-seasons {
   margin-bottom: 0 !important;
   background-color: #013220;
   padding: 7.5px 15px;
   border-top: 1px solid grey;
 }
-body .container .col-4 .table-a-s .table-all-seasons:hover {
+body .container .col-sm-4 .table-a-s .table-all-seasons:hover {
   background-color: #0e3f2d;
 }
-body .container .col-4 .table-a-s .table-all-seasons:hover a {
+body .container .col-sm-4 .table-a-s .table-all-seasons:hover a {
   color: #e19f2a;
   text-decoration: none;
 }
-body .container .col-4 .table-a-s .table-all-seasons p {
+body .container .col-sm-4 .table-a-s .table-all-seasons p {
   text-align: center;
   margin: 0;
   padding: 0;
 }
-body .container .col-4 .table-a-s .table-all-seasons p a {
+body .container .col-sm-4 .table-a-s .table-all-seasons p a {
   color: #fff;
   display: block;
   margin: 0 auto;
 }
-body .container .col-4 .table-a-s .t-a-s-1 {
+body .container .col-sm-4 .table-a-s .t-a-s-1 {
   border-top: none;
 }
-body .container .col-4 .table-a-s .t-a-s-2 {
+@media screen and (max-width: 767px) {
+  body .container .col-sm-4 .table-a-s .t-a-s-1 {
+    border-bottom: 1px solid grey;
+  }
+}
+body .container .col-sm-4 .table-a-s .t-a-s-2 {
   border-bottom: 5px solid #e19f2a;
 }
-body .container .col-4 .table-a-s .t-a-s-3 {
+@media screen and (max-width: 767px) {
+  body .container .col-sm-4 .table-a-s .t-a-s-2 {
+    border-bottom: none;
+  }
+}
+body .container .col-sm-4 .table-a-s .t-a-s-3 {
   border-right: 1px solid grey;
+}
+@media screen and (max-width: 767px) {
+  body .container .col-sm-4 .table-a-s .t-a-s-3 {
+    border-right: none;
+  }
+}
+body .container .col-sm-4 .table-a-s .t-a-s-4 {
+  border-bottom: 5px solid #e19f2a;
+}
+@media screen and (max-width: 767px) {
+  body .container .col-sm-4 .table-a-s .t-a-s-4 {
+    border-bottom: 5px solid #e19f2a;
+  }
 }
 body footer {
   background-color: #013220;
@@ -175,6 +208,11 @@ body footer {
   align-items: center;
   padding: 0;
   margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+  body footer {
+    width: 100%;
+  }
 }
 body footer p {
   color: #fff;
