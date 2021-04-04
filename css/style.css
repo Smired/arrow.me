@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/bg-002.jfif");
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .dropdown-item {
+  background-color: #013220;
+  color: #fff;
+}
+body .dropdown-item:hover {
+  background-color: #0e3f2d;
+  color: #e19f2a;
+  text-decoration: none;
+  transition: top 1s ease-out 0.5s;
+}
+body .img-logo {
+  width: 50px;
+}
+body .container {
+  background-color: rgba(1, 50, 32, 0.8);
+  color: #fff;
+}
+body .container .row-all-seasons {
+  border-bottom: 1px solid grey;
+}
+body .container .row-all-seasons h2 {
+  width: auto;
+}
+body .container .row-all-seasons h2 p {
+  font-size: 14px;
+  display: inline-block;
+  text-align: right;
+  margin: 0;
+}
+body .container .row-all-seasons .card {
+  color: #fff;
+  border: none;
+}
+body .container .row-all-seasons .card:hover a {
+  text-decoration: none;
+  color: #e19f2a;
+}
+body .container .row-all-seasons .card a {
+  color: #fff;
+}
+body .container .row-all-seasons .card a img {
+  height: 15vw;
+}
+body .container .row-all-seasons .card a .card-body {
+  padding: 5px;
+  background-color: #013220;
+}
+body .container .row-all-seasons .card a .card-body h5 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body .container .row-all-seasons .card a .card-body:hover {
+  background-color: #0e3f2d;
+}
+body .container h3 {
+  color: #e19f2a;
+  border-left: 3px solid #e19f2a;
+  padding: 0;
+  padding-left: 15px;
+  margin: 0;
+}
+body .container .episodes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container .news {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid grey;
+}
+body .container .news a {
+  font-weight: 300;
+  color: #e19f2a;
+  font-size: 14px;
+}
+body .container .news-post {
+  color: grey;
+}
+body .container .my-slider {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 30px;
+}
+body .container .my-slider div {
+  padding: 5px;
+  background-color: #013220;
+}
+body .container .my-slider div h5 {
+  font-size: 14px;
+  margin: 0;
+  padding: 10px 0 0;
+}
+body .container .my-slider div h5 a {
+  color: #fff;
+}
+body .container .my-slider div p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: grey;
+}
+body .container .my-slider div .slider-item {
+  width: 99%;
+  border-radius: 2px;
+}
+body .container .my-slider div .slider-item:hover {
+  border: none;
+}
+body .container .col-4 {
+  border-left: 1px solid grey;
+}
+body .container .col-4 button {
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  display: block;
+  margin: 20px auto;
+  font-weight: 500;
+  color: #fff;
+  background-color: #e19f2a;
+  width: 90%;
+}
+body .container .col-4 .table-a-s {
+  width: 90%;
+  margin: 0 5%;
+}
+body .container .col-4 .table-a-s .table-all-seasons {
+  margin-bottom: 0 !important;
+  background-color: #013220;
+  padding: 7.5px 15px;
+  border-top: 1px solid grey;
+}
+body .container .col-4 .table-a-s .table-all-seasons:hover {
+  background-color: #0e3f2d;
+}
+body .container .col-4 .table-a-s .table-all-seasons:hover a {
+  color: #e19f2a;
+  text-decoration: none;
+}
+body .container .col-4 .table-a-s .table-all-seasons p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+body .container .col-4 .table-a-s .table-all-seasons p a {
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+}
+body .container .col-4 .table-a-s .t-a-s-1 {
+  border-top: none;
+}
+body .container .col-4 .table-a-s .t-a-s-2 {
+  border-bottom: 5px solid #e19f2a;
+}
+body .container .col-4 .table-a-s .t-a-s-3 {
+  border-right: 1px solid grey;
+}
+body footer {
+  background-color: #013220;
+  width: 93%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+}
+body footer p {
+  color: #fff;
+  margin: 0;
+}
