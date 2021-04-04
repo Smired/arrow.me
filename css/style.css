@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-image: url("../img/bg-002.jfif");
   background-size: cover;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 body .dropdown-item {
   background-color: #013220;
@@ -26,6 +26,16 @@ body .container {
   body .container {
     max-width: 100vw;
   }
+}
+body .container h1 {
+  color: #e19f2a;
+  font-weight: 600;
+}
+body .container h2 {
+  font-size: 18px;
+}
+body .container svg {
+  margin: 5px;
 }
 body .container .row-all-seasons {
   border-bottom: 1px solid grey;
@@ -77,11 +87,21 @@ body .container .episodes {
   justify-content: space-between;
   align-items: center;
 }
+body .container .episodes h2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
 body .container .news {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid grey;
+}
+body .container .news .news-name {
+  display: flex;
+  justify-content: flex-start;
+  ailgn-items: center;
 }
 body .container .news a {
   font-weight: 300;
