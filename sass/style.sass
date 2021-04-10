@@ -48,6 +48,11 @@ body
                     .card-body
                         padding: 5px
                         background-color: rgba(1, 50, 32, 1)
+                        border-top: 2px solid #e19f2a
+                        opacity: 0.8
+                        position: absolute
+                        width: 100%
+                        top: 12.8em
                         h5 
                             margin: 0
                             padding: 0
@@ -106,6 +111,46 @@ body
                     border-radius: 2px
                     &:hover
                         border: none
+                .s-n_e-n
+                    position: absolute
+                    top: 63%
+                    padding: 5px
+                    background-color: #e19f2a
+                    color: #fff
+                    margin: 0
+                    opacity: 0.8
+                .ep-cover
+                    background-color: #000
+                    opacity: 0
+                    position: absolute
+                    width: 7.28%
+                    height: 72%
+                    margin: 0
+                    padding: 0
+                    top: 4%
+                    text-decoration: none
+                    color: #fff
+                    &:hover
+                        display: flex
+                        flex-direction: column
+                        justify-content: center
+                        align-items: center
+                        z-index: 100
+                        opacity: 0.8
+                    .s-n_e-n &:hover 
+                        display: none
+                    a
+                        text-decoration: none
+                        text-align: center
+                        .watch-online
+                            color: #e19f2a
+                            font-size: 18px
+                            text-align: center
+                        .ep-num
+                            color: #fff
+                            text-align: center
+                    
+
         .col-sm-4
             border-left: 1px solid grey
             @media screen and ( max-width: 767px )

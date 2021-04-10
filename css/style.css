@@ -66,6 +66,11 @@ body .container .row-all-seasons .card a img {
 body .container .row-all-seasons .card a .card-body {
   padding: 5px;
   background-color: #013220;
+  border-top: 2px solid #e19f2a;
+  opacity: 0.8;
+  position: absolute;
+  width: 100%;
+  top: 12.8em;
 }
 body .container .row-all-seasons .card a .card-body h5 {
   margin: 0;
@@ -140,6 +145,51 @@ body .container .my-slider div .slider-item {
 }
 body .container .my-slider div .slider-item:hover {
   border: none;
+}
+body .container .my-slider div .s-n_e-n {
+  position: absolute;
+  top: 63%;
+  padding: 5px;
+  background-color: #e19f2a;
+  color: #fff;
+  margin: 0;
+  opacity: 0.8;
+}
+body .container .my-slider div .ep-cover {
+  background-color: #000;
+  opacity: 0;
+  position: absolute;
+  width: 7.28%;
+  height: 72%;
+  margin: 0;
+  padding: 0;
+  top: 4%;
+  text-decoration: none;
+  color: #fff;
+}
+body .container .my-slider div .ep-cover:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  opacity: 0.8;
+}
+.s-n_e-n body .container .my-slider div .ep-cover:hover {
+  display: none;
+}
+body .container .my-slider div .ep-cover a {
+  text-decoration: none;
+  text-align: center;
+}
+body .container .my-slider div .ep-cover a .watch-online {
+  color: #e19f2a;
+  font-size: 18px;
+  text-align: center;
+}
+body .container .my-slider div .ep-cover a .ep-num {
+  color: #fff;
+  text-align: center;
 }
 body .container .col-sm-4 {
   border-left: 1px solid grey;
